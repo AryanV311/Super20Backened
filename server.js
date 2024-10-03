@@ -13,7 +13,7 @@ import bodyParser from 'body-parser';
 const app = express();
 const PORT = 4000;
 const corsOptions = {
-    origin: "https://stirring-sorbet-2b260e.netlify.app",
+    origin: ["https://stirring-sorbet-2b260e.netlify.app", "https://tomatofoodadmin.netlify.app/"],
     method: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credential: true,
 }
